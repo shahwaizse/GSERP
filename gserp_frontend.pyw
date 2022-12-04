@@ -7,7 +7,7 @@ from threading import Thread
 import os
 
 def fetch_links(query):
-    client = ApifyClient("apify_api_1Qhrxlj0DdwHFcfOwgIj6MOVjEIv7s3w1Wl3")
+    client = ApifyClient("") #your apify key
     # Prepare the actor input
     run_input = {
         #"queries": "write for me + travel",
